@@ -1,0 +1,58 @@
+{
+  "name": "fb-bot-stub",
+  "version": "0.1.0",
+  "description": "Simple stub of a facebook messenger bot",
+  "scripts": {
+    "start": "nodemon --exec \"SLS_DEBUG=* sls local-dev-server\" -e \"js yml\"",
+    "test": "standard && nyc mocha",
+    "sls": "sls",
+    "deploy": "sls deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DieProduktMacher/fb-bot-stub.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "bot",
+    "stub"
+  ],
+  "author": "thomas.limp@produktmacher.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DieProduktMacher/fb-bot-stub/issues"
+  },
+  "homepage": "https://github.com/DieProduktMacher/fb-bot-stub#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^4.0.0",
+    "dotenv-webpack": "^1.5.4",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.1",
+    "nyc": "^11.2.1",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "serverless": "^1.23.0",
+    "serverless-local-dev-server": "^0.2.3",
+    "serverless-plugin-webpack": "^1.3.0",
+    "sinon": "^4.0.0",
+    "sinon-chai": "^2.13.0",
+    "standard": "^10.0.3",
+    "webpack": "^3.6.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "xit",
+      "expect",
+      "assert",
+      "sinon"
+    ]
+  }
+}
