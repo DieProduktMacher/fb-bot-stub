@@ -21,7 +21,7 @@ FB_PAGE_ACCESS_TOKEN=token-generated-for-app
 
 ## Local developmenent
 
-Start the local development server (powered by [`serverless-local-dev-server`](https://www.npmjs.com/package/sserverless-local-dev-server)):
+Start the local development server (powered by [`serverless-local-dev-server`](https://www.npmjs.com/package/serverless-local-dev-server)):
 
 ```
 npm start
